@@ -21,12 +21,14 @@ public class Main {
         //task2
         TelephoneBook book = new TelephoneBook();
         book.add("Ksenia", "88005553535");
+        book.add("Ksenia", "89067778899");
         book.add("Aleksandr", "12345678912");
         book.add("Artem", "89997774456");
         System.out.println(book.get("Ksenia"));
         System.out.println(book.get("Aleksandr"));
         System.out.println(book.get("Artem"));
-        System.out.println(book.get("Maria")); //было интересно, правильно ли будет работать, если спрошу о человеке, которого нет в книге
+        //было интересно, правильно ли будет работать, если спрошу о человеке, которого нет в книге
+//        System.out.println(book.get("Maria"));
     }
 
     public static Map<String, Integer> countDuplicates(String[] words){
